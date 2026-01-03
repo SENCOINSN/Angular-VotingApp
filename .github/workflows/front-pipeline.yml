@@ -33,4 +33,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/votingApp:latest,${{ secrets.DOCKERHUB_USERNAME }}/votingApp:v1
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/votingapp:latest,${{ secrets.DOCKERHUB_USERNAME }}/votingapp:v1
